@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: gray;
+    
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+}
+.operaciones{
+    background-color: gray;
+    display: flex;
+    justify-content:flex-end;
+    align-items: end;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 1px;
+    padding: 1px;
+    width: 200px;
+    height: 80px;
+    overflow: auto;
+}
+.operaciones p {
+    padding: 0rem 1rem;
+}
+.num{
+    margin: 0px 5px;
+    width: 70px;
+}
+.btn-equal{
+    width: 30px;
+    font-size: 1rem;
+    color: aliceblue;
+    background-color:crimson;
+    border: none;
+    border-radius: 5px;
+}
