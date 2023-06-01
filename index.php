@@ -7,6 +7,17 @@
     <title>Calculadora</title>
 </head>
 <body>
+    <form method="post">
+        <input type="text" name="numero1" placeholder="Ingrese el numero">
+        <select name="select">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" name="numero2" placeholder="Ingrese el numero"><br>
+        <input type="submit" value="Enviar">
+    </form>
     
 </body>
 </html>
